@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Serif';
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+  }
+
+  body {
+    @apply bg-black;
+    font-family: 'Serif', serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+
+  .text-gold {
+    color: #ffd700;
+  }
+}
